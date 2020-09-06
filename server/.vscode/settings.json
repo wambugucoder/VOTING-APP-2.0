@@ -1,0 +1,26 @@
+{
+    "cSpell.ignoreWords": [
+        "db",
+        "exports",
+        "finalstep",
+        "id",
+        "josphatwambugu",
+        "mainproject",
+        "module",
+        "module exports db mainproject username postgress password josphatwambugu",
+        "params",
+        "password",
+        "postgress",
+        "push",
+        "req",
+        "then",
+        "then finalstep voters push req params id update",
+        "update",
+        "username",
+        "voters"
+    ],
+    "cSpell.words": [
+        "postgres"
+    ],
+    "deno.enable": false
+}

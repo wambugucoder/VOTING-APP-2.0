@@ -1,0 +1,390 @@
+{
+  "stats": {
+    "suites": 8,
+    "tests": 7,
+    "passes": 5,
+    "pending": 2,
+    "failures": 0,
+    "start": "2020-09-03T13:04:33.776Z",
+    "end": "2020-09-03T13:04:34.801Z",
+    "duration": 1025,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 28.57142857142857,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "20d2b48f-3d9f-4259-8fd8-b829166366df",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [
+        {
+          "title": "\"before all\" hook",
+          "fullTitle": "\"before all\" hook",
+          "timedOut": false,
+          "duration": 0,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "console.log(\"Tests About to Start...\")\ndone();",
+          "err": {},
+          "uuid": "522491dd-dd78-454d-866f-775b2a07c168",
+          "parentUUID": "20d2b48f-3d9f-4259-8fd8-b829166366df",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "afterHooks": [
+        {
+          "title": "\"after all\" hook in \"{root}\"",
+          "fullTitle": "\"after all\" hook in \"{root}\"",
+          "timedOut": false,
+          "duration": 1,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "console.log(\"Tests Completed...\")\ndone()",
+          "err": {},
+          "uuid": "1ec7c059-c3e2-445c-801f-6d244f7aef39",
+          "parentUUID": "20d2b48f-3d9f-4259-8fd8-b829166366df",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "edc1f24d-2e65-471b-b8a5-3fd55f9fe101",
+          "title": "SUPERTEST SETUP",
+          "fullFile": "C:\\Users\\WAMBUGU\\Desktop\\folder\\PERN STACK\\server\\test.js",
+          "file": "\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Starts the testing process",
+              "fullTitle": "SUPERTEST SETUP Starts the testing process",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "before((done) => {\n    console.log(\"Tests About to Start...\")\n    done();\n});",
+              "err": {},
+              "uuid": "e8d93fea-6374-47bd-9997-97715c446f38",
+              "parentUUID": "edc1f24d-2e65-471b-b8a5-3fd55f9fe101",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should close server after Running Tests",
+              "fullTitle": "SUPERTEST SETUP Should close server after Running Tests",
+              "timedOut": false,
+              "duration": 21,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "after((done) => {\n    console.log(\"Tests Completed...\")\n    done()\n    \n});",
+              "err": {},
+              "uuid": "05ef89c3-20fd-4a67-8d0e-de8d11fa7a24",
+              "parentUUID": "edc1f24d-2e65-471b-b8a5-3fd55f9fe101",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e8d93fea-6374-47bd-9997-97715c446f38",
+            "05ef89c3-20fd-4a67-8d0e-de8d11fa7a24"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 22,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "3c5a0a02-a2c4-4ed0-a569-0206f7f092f9",
+          "title": "AUTH TESTING",
+          "fullFile": "C:\\Users\\WAMBUGU\\Desktop\\folder\\PERN STACK\\server\\test.js",
+          "file": "\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "a9d24ea3-ba5e-4efd-867d-5a22b1090aa2",
+              "title": "POST /api/auth/register",
+              "fullFile": "C:\\Users\\WAMBUGU\\Desktop\\folder\\PERN STACK\\server\\test.js",
+              "file": "\\test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Registers a User and sends them email",
+                  "fullTitle": "AUTH TESTING POST /api/auth/register Registers a User and sends them email",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "pending",
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": true,
+                  "context": null,
+                  "code": "",
+                  "err": {},
+                  "uuid": "b74184e8-f24c-4482-b449-5e1d279f2b13",
+                  "parentUUID": "a9d24ea3-ba5e-4efd-867d-5a22b1090aa2",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [],
+              "failures": [],
+              "pending": [
+                "b74184e8-f24c-4482-b449-5e1d279f2b13"
+              ],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "d514f562-eb1f-46f7-83b8-3750e65f0c7a",
+              "title": "PUT / api/auth/verify/token",
+              "fullFile": "C:\\Users\\WAMBUGU\\Desktop\\folder\\PERN STACK\\server\\test.js",
+              "file": "\\test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Confirms the Users Email",
+                  "fullTitle": "AUTH TESTING PUT / api/auth/verify/token Confirms the Users Email",
+                  "timedOut": false,
+                  "duration": 149,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const token=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImlhdCI6MTU5OTEzMzMxOCwiZXhwIjoxNTk5MTM2OTE4fQ.5n7kOiY8O_CwgrDW_O68l1R4i2_DyDpBWqc26dFVJNA\"\nreturn app.put(`/api/auth/verify/${token}`)\n //SINCE TOKEN EXPIRED ,WE EXPECT AN ERROR (400) IN ORDER TO PASS TEST\n.expect(400)\n.then((response) => {\n    expect(response).to.exist\n   \n})",
+                  "err": {},
+                  "uuid": "cdb4c9af-572a-4b7b-8ea3-e8161d0ca9c7",
+                  "parentUUID": "d514f562-eb1f-46f7-83b8-3750e65f0c7a",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "cdb4c9af-572a-4b7b-8ea3-e8161d0ca9c7"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 149,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "814b7f0b-fc66-4d99-a689-17bda2864554",
+              "title": "POST /api/auth/login",
+              "fullFile": "C:\\Users\\WAMBUGU\\Desktop\\folder\\PERN STACK\\server\\test.js",
+              "file": "\\test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Provides a token during Login",
+                  "fullTitle": "AUTH TESTING POST /api/auth/login Provides a token during Login",
+                  "timedOut": false,
+                  "duration": 431,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "return app.post(\"/api/auth/login\")\n  .send({\n      email:\"josyw77@gmal.com\",\n      password:\"jos123\"\n  })\n  .expect(200)\n   .then((response) => {\n       expect(response)\n   })",
+                  "err": {},
+                  "uuid": "94449ee6-b7c5-4559-9bd7-aa3bc114f3d5",
+                  "parentUUID": "814b7f0b-fc66-4d99-a689-17bda2864554",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "94449ee6-b7c5-4559-9bd7-aa3bc114f3d5"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 431,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "7e7369f3-ea7a-4bb2-8686-5cd4a1ad1675",
+          "title": "POLL TESTING",
+          "fullFile": "C:\\Users\\WAMBUGU\\Desktop\\folder\\PERN STACK\\server\\test.js",
+          "file": "\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "3886cb72-5013-476c-9289-6f5247ecef30",
+              "title": "GET /api/polls/allpolls",
+              "fullFile": "C:\\Users\\WAMBUGU\\Desktop\\folder\\PERN STACK\\server\\test.js",
+              "file": "\\test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "returns all polls",
+                  "fullTitle": "POLL TESTING GET /api/polls/allpolls returns all polls",
+                  "timedOut": false,
+                  "duration": 110,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "return app.get('/api/polls/allpolls')\n       .expect(200)\n       \n       .then((response) => {\n           expect(response);\n           expect(response.body).to.be.an.instanceof(Array)\n           expect(response.body).to.have.length.above(0);\n          \n         \n       })\n       .catch((err) => {\n         expect(err).to.exist\n     })",
+                  "err": {},
+                  "uuid": "5b297cbb-ebb1-42df-90e1-1a7842de8773",
+                  "parentUUID": "3886cb72-5013-476c-9289-6f5247ecef30",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "5b297cbb-ebb1-42df-90e1-1a7842de8773"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 110,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "6efed32c-e22c-464e-8ee0-b6f5790d70b1",
+              "title": "POST /api/polls/create",
+              "fullFile": "C:\\Users\\WAMBUGU\\Desktop\\folder\\PERN STACK\\server\\test.js",
+              "file": "\\test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "creates a Poll",
+                  "fullTitle": "POLL TESTING POST /api/polls/create creates a Poll",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "pending",
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": true,
+                  "context": null,
+                  "code": "",
+                  "err": {},
+                  "uuid": "855d603e-e634-42bb-8cc4-7a7adf73c76a",
+                  "parentUUID": "6efed32c-e22c-464e-8ee0-b6f5790d70b1",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [],
+              "failures": [],
+              "pending": [
+                "855d603e-e634-42bb-8cc4-7a7adf73c76a"
+              ],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.1.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}

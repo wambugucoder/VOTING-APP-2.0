@@ -1,0 +1,49 @@
+{
+  "name": "pern_stack",
+  "version": "1.0.0",
+  "description": "A voting App using postgress express react nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon run server",
+    "client": "npm start --prefix client",
+    "test": "cross-env NODE_ENV=test mocha --exit --recursive --timeout 35000",
+    
+    "testdb":"cross-env NODE_ENV=test npx sequelize-cli db:create",
+    "testseed":"cross-env NODE_ENV=test npx sequelize-cli db:seed:all",
+    "testsetup":"cross-env NODE_ENV=test npx sequelize-cli db:migrate ",
+    "undotest":"cross-env NODE_ENV=test npx sequelize-cli db:migrate:undo:all",
+    "test-report": "mocha --reporter mochawesome ",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Jos Wambugu",
+  "license": "ISC",
+  "dependencies": {
+    "@risingstack/protect": "^1.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "compression": "^1.7.4",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.1.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^4.7.0",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.3",
+    "supertest": "^4.0.2",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "mochawesome": "^6.1.1"
+  }
+}
