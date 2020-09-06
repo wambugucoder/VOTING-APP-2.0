@@ -1,7 +1,7 @@
 module.exports = {
  db:"MainProject",
  username:"postgres",
- password:"Josphatwambugu12",
+ password:"2",
  host:"127.0.0.1",
  dialect:"postgres",
  LoggerType:'tiny',
@@ -10,8 +10,8 @@ module.exports = {
     host: "smtp.mailtrap.io",
     port: 2525,
     auth: {
-        user:'048b4d39f8bb06',
-        pass: '437caf5cb7f86d',
+        user:'',
+        pass: '',
        
     
     },
