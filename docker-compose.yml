@@ -1,14 +1,15 @@
 version: '2'
 services:
   client:
+    restart: always
     build: ./client
     ports:
-      - '3000:3000'
+      - '80:80'
     depends_on:
       - server
   server:
+    restart: always
     build: ./server
     ports:
       - '5000:5000'
-   
-
+  

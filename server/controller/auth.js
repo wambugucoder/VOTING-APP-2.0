@@ -78,7 +78,7 @@ if (!isValid) {
                                  attachments: [
                                     {
                                       filename: 'link.txt',
-                                     content:`http://192.168.99.100:3000/verify/${jwt.sign({email: req.body.email},
+                                     content:`http://192.168.99.100/verify/${jwt.sign({email: req.body.email},
                                      keys.secretOrKey,
                                      { expiresIn: 3600// expires in 1hr
                                      }
