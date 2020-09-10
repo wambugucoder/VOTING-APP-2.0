@@ -8,6 +8,3 @@ Tech used :
 <br/>. 🧭 Mocha - For Integration testing of my APIs.
 <br/>. ⚓ React - Building my frontend .
 <br/>. 🧨 Express -Building my backend .
-<br/>. 
-#MOCHA TEST RESULTS
-<p>https://github.com/wambugucoder/VOTING-APP-BETTERVERSION/blob/master/server/mochawesome-report/mochawesome.html</p>
