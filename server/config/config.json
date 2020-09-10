@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "",
-    "password": "",
-    "database": "",
-    "host": "",
+    "username": "iuwvnfhmjsppys",
+    "password": "f31733fd763e4277128aef2df38a09d167bff4481a93e890d9faace96067b1bd",
+    "database": "da9pp6ovm5cms3",
+    "host": "ec2-54-235-192-146.compute-1.amazonaws.com",
     "dialect": "postgres",
     "protocol": "postgres",
     "dialectOptions": {
@@ -14,16 +14,16 @@
   },
   "test": {
     "username": "postgres",
-    "password": "",
+    "password": "Josphatwambugu12",
     "database": "testdb",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-  "username": "",
-    "password": "",
-    "database": "",
-    "host": "",
+    "username": "iuwvnfhmjsppys",
+    "password": "f31733fd763e4277128aef2df38a09d167bff4481a93e890d9faace96067b1bd",
+    "database": "da9pp6ovm5cms3",
+    "host": "ec2-54-235-192-146.compute-1.amazonaws.com",
     "dialect": "postgres",
     "protocol": "postgres",
     "dialectOptions": {
