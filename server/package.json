@@ -8,13 +8,14 @@
     "server": "nodemon run server",
     "client": "npm start --prefix client",
     "test": "cross-env NODE_ENV=test mocha --exit --recursive --timeout 35000",
-    
-    "testdb":"cross-env NODE_ENV=test npx sequelize-cli db:create",
-    "testseed":"cross-env NODE_ENV=test npx sequelize-cli db:seed:all",
-    "testsetup":"cross-env NODE_ENV=test npx sequelize-cli db:migrate ",
-    "undotest":"cross-env NODE_ENV=test npx sequelize-cli db:migrate:undo:all",
+    "testdb": "cross-env NODE_ENV=test npx sequelize-cli db:create",
+    "testseed": "cross-env NODE_ENV=test npx sequelize-cli db:seed:all",
+    "testsetup": "cross-env NODE_ENV=test npx sequelize-cli db:migrate ",
+    "undotest": "cross-env NODE_ENV=test npx sequelize-cli db:migrate:undo:all",
     "test-report": "mocha --reporter mochawesome ",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Jos Wambugu",
   "license": "ISC",
@@ -40,10 +41,12 @@
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.3",
     "supertest": "^4.0.2",
-    "validator": "^13.1.1"
+    "validator": "^13.1.1",
+    "snyk": "^1.393.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
     "mochawesome": "^6.1.1"
-  }
+  },
+  "snyk": true
 }
