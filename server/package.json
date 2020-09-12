@@ -36,7 +36,7 @@
     "nodemon": "^2.0.4",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
-    "pg": "^8.3.0",
+    "pg": "^8.3.2",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.3",
     "supertest": "^4.0.2",
