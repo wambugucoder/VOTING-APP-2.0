@@ -42,7 +42,7 @@
     "sequelize": "^6.3.5",
     "supertest": "^4.0.2",
     "validator": "^13.1.1",
-    "snyk": "^1.393.1"
+    "snyk": "^1.395.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
