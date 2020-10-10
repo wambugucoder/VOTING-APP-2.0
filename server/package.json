@@ -41,7 +41,7 @@
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.5",
     "supertest": "^4.0.2",
-    "validator": "^13.1.1",
+    "validator": "^13.1.17",
     "snyk": "^1.398.0"
   },
   "devDependencies": {
