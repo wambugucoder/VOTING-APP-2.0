@@ -10,7 +10,7 @@
     "bootstrap": "^4.6.0",
     "bootstrap-sass": "^3.4.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0",
     "jwt-decode": "^2.2.0",
     "moment": "^2.29.1",
     "node-sass": "5.0.0",
