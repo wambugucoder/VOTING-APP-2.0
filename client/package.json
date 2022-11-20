@@ -25,7 +25,7 @@
     "react-data-table-component": "6.11.8",
     "react-data-table-component-extensions": "^1.5.2",
     "react-dom": "17.0.2",
-    "react-moment": "^0.9.7",
+    "react-moment": "^1.0.0",
     "react-notifications": "^1.7.2",
     "react-redux": "7.2.5",
     "react-router-dom": "^5.2.0",
